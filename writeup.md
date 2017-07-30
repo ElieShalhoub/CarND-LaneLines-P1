@@ -38,14 +38,11 @@ in doing so, I created a new function called "draw_straight_lines" that has the 
 
 
 ### 2. Identify potential shortcomings with your current pipeline
-One potential shortcoming would be what would happen when the lanes are in a new image and fall out the defined verticies.
-Another shortcoming could be 
+One potential shortcoming would be what happens when the lanes are in a new image and fall out of the defined verticies.
+Another shortcoming is with handling videos having different color contrast and sharper colors. 
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
-Improvement in handling curved lines
-
+A possible improvement would be in handling curved lines.
+Another improvement is to dynamilcally define the verticies of the region of interest, I have had to do some trial and error to define them.
